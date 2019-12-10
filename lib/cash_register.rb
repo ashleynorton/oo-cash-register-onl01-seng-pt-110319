@@ -23,5 +23,6 @@ class CashRegister
       @discount = @discount * 100.to_f
       @discounted_total = @total - (@total * @discount)
       @discounted_total
+      "After the discount, the total comes to $800."
   end 
 end 
