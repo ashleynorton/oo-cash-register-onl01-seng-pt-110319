@@ -20,7 +20,7 @@ class CashRegister
   
   def apply_discount
     @discount = @discount * 100.to_f
-    @discounted_total = @total - (@discount
-    @discount_total
+    @discounted_total = @total - (@total * @discount)
+    @discounted_total
   end 
 end 
